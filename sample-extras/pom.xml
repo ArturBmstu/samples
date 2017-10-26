@@ -3,16 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>ru.mail.park.java</groupId>
-	<artifactId>samples-reactor</artifactId>
+	<groupId>ru.park.mail.java</groupId>
+	<artifactId>sample-extras-reactor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>sample-1-2</module>
-		<module>sample-2-1</module>
-		<module>sample-2-2</module>
-		<module>sample-2-3</module>
-		<module>sample-extras</module>
+		<module>sample-testcontainers</module>
+		<module>sample-jmh</module>
 	</modules>
 </project>
